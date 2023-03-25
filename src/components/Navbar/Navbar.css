@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    font-size: 2rem;
+    color: #FCD116;
+}
+
+h1{
+    padding: 10px ;
+}
+
+.gold{
+    color: #FCD116;
+}
+
+.white{
+    color: whitesmoke;;
+}
