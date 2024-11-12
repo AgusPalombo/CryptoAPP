@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() =>{
       axios.get(url).then((response) =>{
-        setCoins(response.data); //asigno a la variable la respuesta que nos porporsiona axios
+        setCoins(response.data); //asigno a la variable la respuesta que nos proporsiona axios
         console.log(response.data[0]); // console.log devuelve un array con la data
       }).catch((error)=>{
         console.log(error);
